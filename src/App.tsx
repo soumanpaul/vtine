@@ -44,7 +44,7 @@ export default function App() {
     <div className="h-fit m-4 flex flex-col items-center justify-center p-8 rounded-2xl bg-cyan-500 shadow-2xl">
       {isExcited ? (
         <>
-          <h1 className="text-4xl font-bold text-gray-800 mb-6">Good, You are my girl 🤗</h1>
+          <h1 className="text-4xl font-bold text-gray-800 mb-6">Good, You are my girl 🤗 call me at 7980319366</h1>
           <img src="https://media.tenor.com/gUiu1zyxfzYAAAAi/bear-kiss-bear-kisses.gif" alt="Excited bear"  />
           <button
           onClick={() => location.reload()}
@@ -56,7 +56,10 @@ export default function App() {
         <>
           <h1 className="text-4xl font-bold text-gray-800 mb-6">Souji will you be my valentine?</h1>
           <p className="text-xl text-gray-600 mb-6">Choose wisely!</p>
-          <img  src="https://gifdb.com/images/high/cute-love-bear-roses-ou7zho5oosxnpo6k.gif" alt="Bear with roses" className={`rounded-lg h-[150px]`} />
+         {!noCount ?
+          <img  src="https://gifdb.com/images/high/cute-love-bear-roses-ou7zho5oosxnpo6k.gif" alt="Bear with roses" className={`rounded-lg h-[150px]`} /> :
+          <img  src="https://i.pinimg.com/originals/48/83/da/4883dac105f5ddca6122bdf901a5d92e.gif" alt="Bear with roses" className={`rounded-lg h-[150px]`} />
+         }
 
         <div className="mt-6">
           {getNoButtonText() != "" &&
