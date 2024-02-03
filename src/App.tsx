@@ -1,6 +1,6 @@
 import { useState } from "react";
 import './index.css';
-import { FaHeartBroken ,FaRegHeart, FaTimes } from "react-icons/fa";
+import { FaRegHeart, FaTimes } from "react-icons/fa";
 
 export default function App() {
 
