@@ -39,7 +39,7 @@ export default function App() {
   };
 
   const [isExcited, setIsExcited] = useState(false);
-
+// bg-cyan-500
   return (
     <div className="h-fit m-4 flex flex-col items-center justify-center p-8 rounded-2xl bg-cyan-500 shadow-2xl">
       {isExcited ? (
