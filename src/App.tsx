@@ -19,18 +19,18 @@ export default function App() {
     "",
     "Are you sure, No? ",
     "Really sure, No?",
-    "Think again Souji ?",
-    "Last chance Souji ?",
+    "Think again  ?",
+    "Last chance  ?",
     "Surely not?",
-    "You might regret this Souji ?",
-    "Give it another thought Souji ?",
+    "You might regret this  ?",
+    "Give it another thought  ?",
     "Are you absolutely certain?",
-    "This could be a mistake Souji ?",
-    "Have a heart for me souji!",
-    "Don't be so cold Souji ?",
+    "This could be a mistake  ?",
+    "Have a heart for me !",
+    "Don't be so cold  ?",
     "Wouldn't you reconsider?",
     "What is your final answer?",
-    "You're breaking my heart Souji;(",
+    "You're breaking my heart ;(",
     "Now i am dead 💀"
   ];
 
@@ -54,7 +54,7 @@ export default function App() {
         </>
       ) : (
         <>
-          <h1 className="text-4xl font-bold text-gray-800 mb-6">Souji will you be my valentine?</h1>
+          <h1 className="text-4xl font-bold text-gray-800 mb-6"> will you be my valentine?</h1>
           <p className="text-xl text-gray-600 mb-6">Choose wisely!</p>
          {!noCount ?
           <img  src="https://gifdb.com/images/high/cute-love-bear-roses-ou7zho5oosxnpo6k.gif" alt="Bear with roses" className={`rounded-lg h-[150px]`} /> :
